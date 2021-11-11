@@ -12,4 +12,15 @@ entries:
     urls:
     - https://pop-cloud.github.io/helm-charts/lil-app-0.0.1.tgz
     version: 0.0.1
-generated: "2021-06-07T15:21:23.215518723Z"
+  react-activities:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-11-11T14:38:25.769743534Z"
+    description: A Helm chart for Kubernetes
+    digest: 69a97d047177d07f0ec19457a7937e63f41bde79c312695a79fc7edacf38d550
+    name: react-activities
+    type: application
+    urls:
+    - https://pop-cloud.github.io/helm-charts/react-activities-0.1.0.tgz
+    version: 0.1.0
+generated: "2021-11-11T14:38:25.769069134Z"
