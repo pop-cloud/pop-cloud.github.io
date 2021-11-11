@@ -15,6 +15,16 @@ entries:
   react-activities:
   - apiVersion: v2
     appVersion: 1.16.0
+    created: "2021-11-11T17:42:14.289791522Z"
+    description: A Helm chart for Kubernetes
+    digest: b9700df53665fd8b2b6d34e5f0e22e60291f3fc53854b2376561734eec7a377e
+    name: react-activities
+    type: application
+    urls:
+    - https://pop-cloud.github.io/helm-charts/react-activities-0.2.0.tgz
+    version: 0.2.0
+  - apiVersion: v2
+    appVersion: 1.16.0
     created: "2021-11-11T14:38:25.769743534Z"
     description: A Helm chart for Kubernetes
     digest: 69a97d047177d07f0ec19457a7937e63f41bde79c312695a79fc7edacf38d550
@@ -23,4 +33,4 @@ entries:
     urls:
     - https://pop-cloud.github.io/helm-charts/react-activities-0.1.0.tgz
     version: 0.1.0
-generated: "2021-11-11T14:38:25.769069134Z"
+generated: "2021-11-11T17:42:14.288938117Z"
