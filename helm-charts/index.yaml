@@ -11,6 +11,28 @@ entries:
     urls:
     - https://pop-cloud.github.io/helm-charts/activities-api-0.1.0.tgz
     version: 0.1.0
+  activities-stack:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2022-01-04T17:17:43.989341672Z"
+    dependencies:
+    - alias: web
+      condition: web.enabled
+      name: activities-web
+      repository: ""
+      version: 0.2.0
+    - alias: api
+      condition: api.enabled
+      name: activities-api
+      repository: ""
+      version: 0.1.0
+    description: This Chart deploys the stack of activities.
+    digest: 2c9028224d8f11d104162f905f0ec6e9c0f7857c04c035534a4be64223483e17
+    name: activities-stack
+    type: application
+    urls:
+    - https://pop-cloud.github.io/helm-charts/activities-stack-1.0.0.tgz
+    version: 1.0.0
   activities-web:
   - apiVersion: v2
     appVersion: 1.16.0
@@ -55,4 +77,4 @@ entries:
     urls:
     - https://pop-cloud.github.io/helm-charts/react-activities-0.1.0.tgz
     version: 0.1.0
-generated: "2022-01-04T16:30:06.427477732Z"
+generated: "2022-01-04T17:17:43.986556118Z"
