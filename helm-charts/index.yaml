@@ -1,11 +1,22 @@
 apiVersion: v1
 entries:
+  activities-api:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-01-04T16:30:06.429118254Z"
+    description: A Helm chart for Kubernetes
+    digest: 7308c8663ce0a2b9f68286fbb754cb757b43397990b4a69d72ad34096ea4bcd5
+    name: activities-api
+    type: application
+    urls:
+    - https://pop-cloud.github.io/helm-charts/activities-api-0.1.0.tgz
+    version: 0.1.0
   activities-web:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-11-14T21:48:06.840968386Z"
+    created: "2022-01-04T16:30:06.429708362Z"
     description: A Helm chart for Kubernetes
-    digest: 5327c143dbabac9dc8709f059af03604bfbf28557adf4ce3d772b53f59006bf6
+    digest: 98fc4edad15f113398a3cd2056080db5a24837e1a31d1ca0cea0c361c2439ad8
     name: activities-web
     type: application
     urls:
@@ -44,4 +55,4 @@ entries:
     urls:
     - https://pop-cloud.github.io/helm-charts/react-activities-0.1.0.tgz
     version: 0.1.0
-generated: "2021-11-14T21:48:06.840391679Z"
+generated: "2022-01-04T16:30:06.427477732Z"
