@@ -14,8 +14,13 @@ entries:
   activities-stack:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2022-01-04T17:18:45.676572948Z"
+    created: "2022-01-04T17:26:53.625688326Z"
     dependencies:
+    - alias: db
+      condition: db.enabled
+      name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: 10.14.2
     - alias: web
       condition: web.enabled
       name: activities-web
@@ -27,7 +32,7 @@ entries:
       repository: ""
       version: 0.1.0
     description: This Chart deploys the stack of activities.
-    digest: 43b4260d5f11486c8a89255d6079f9f1ce40dc15b3c0e7ba8f4399292d69df33
+    digest: 56d29b7c706c9ebf9d448817fb97e43e78fe39542a0ee17a65e742ff548ca766
     name: activities-stack
     type: application
     urls:
@@ -77,4 +82,4 @@ entries:
     urls:
     - https://pop-cloud.github.io/helm-charts/react-activities-0.1.0.tgz
     version: 0.1.0
-generated: "2022-01-04T17:18:45.67424705Z"
+generated: "2022-01-04T17:26:53.619081582Z"
